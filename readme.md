@@ -10,6 +10,8 @@ AngularJS is a front-end JavaScript MVC framework created by google. It allows y
 
 Laravel is a back-end framework created for php. This allows us to better build back-end logic by utilizing routes and build RESTful services effortlessly using MVC architecture. 
 
-## Official Documentation
+## Setup instructions
 
-Soon
+1. You must install laravel first in your local machine if you don't have one. Follow the instructions here:  https://laravel.com/docs/5.2
+2. Type the command: 'php artisan migrate' to create a database table from Eloquent models. Make sure you check the .env file for your local mysql db setup.
+3. Run the app by typing the command: 'php artisan serve'
