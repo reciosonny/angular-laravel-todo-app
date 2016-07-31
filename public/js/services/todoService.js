@@ -1,6 +1,6 @@
 var app = angular.module('todoService', []);
 
-app.factory('TodoService', ['$http', function($http){
+app.factory('TodoService', ['$http', function($http) {
 	var api_v1 = 'api/v1/';
 	return {
 		add: function (todoName) {
